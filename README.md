@@ -9,7 +9,7 @@
 [![Sports](https://img.shields.io/badge/sports-Football%20%7C%20NFL%20%7C%20Basketball-green.svg)](#three-sports-one-calibrated-pipeline)
 [![Inference](https://img.shields.io/badge/inference-CPU%20only-cyan.svg)](#verified-not-claimed)
 [![Tests](https://img.shields.io/badge/tests-55%2F55%20passing-brightgreen.svg)](#verified-not-claimed)
-[![Status](https://img.shields.io/badge/source-available%20on%20request-lightgrey.svg)](#about-this-repository)
+[![Status](https://img.shields.io/badge/source-available%20on%20request-lightgrey.svg)](#source-code)
 
 </div>
 
