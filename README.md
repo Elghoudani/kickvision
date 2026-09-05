@@ -23,16 +23,6 @@
 
 The core carries no sport-specific literals. A sport is a configuration file describing its playing surface, its sprint thresholds and its metabolic terrain constant. Football, American football and basketball were all brought up against the same engine.
 
-### Association football
-
-| Broadcast overlay | Raw vs. analysed |
-| :---: | :---: |
-| ![Football overlay](reports/demos/screenshot_football.png) | ![Football demo](reports/demos/demo_football.gif) |
-
-Kit clustering separates both outfield teams from officials and keepers. A 4-point homography maps every foot-base onto a 105 m × 68 m FIFA pitch. The mini-map carries a live Gaussian occupancy heat map, velocity vectors and a running speed leaderboard in km/h.
-
-▶ [`football_side_by_side.mp4`](reports/demos/football_side_by_side.mp4) · [`football_overlay.mp4`](reports/demos/football_overlay.mp4)
-
 ### American football
 
 | Broadcast overlay | Raw vs. analysed |
@@ -52,6 +42,16 @@ A calibrated 100-yard field with 10-yard hash marks. Line of scrimmage, pocket d
 FIBA/NBA court projection with centre circle, key, free-throw circle and the 3-point arc. Spacing analysis reads paint density against perimeter kick-out distribution through a pick-and-roll.
 
 ▶ [`basketball_side_by_side.mp4`](reports/demos/basketball_side_by_side.mp4) · [`basketball_overlay.mp4`](reports/demos/basketball_overlay.mp4)
+
+### Association football
+
+| Broadcast overlay | Raw vs. analysed |
+| :---: | :---: |
+| ![Football overlay](reports/demos/screenshot_football.png) | ![Football demo](reports/demos/demo_football.gif) |
+
+Kit clustering separates both outfield teams from officials and keepers. A 4-point homography maps every foot-base onto a 105 m × 68 m FIFA pitch. The mini-map carries a live Gaussian occupancy heat map, velocity vectors and a running speed leaderboard in km/h.
+
+▶ [`football_side_by_side.mp4`](reports/demos/football_side_by_side.mp4) · [`football_overlay.mp4`](reports/demos/football_overlay.mp4)
 
 ---
 
