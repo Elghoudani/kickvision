@@ -1,0 +1,246 @@
+{
+  "data_classification": "SYNTHETIC",
+  "data_disclaimer": "SYNTHETIC DEMONSTRATION DATA. Physiological values are generated, not measured. Player names are recognisable placeholders; no real athlete was recorded. See docs/DATA_DISCLAIMER.md",
+  "session": "session01",
+  "video": "data/clips/0bfacc_0.mp4",
+  "total_tracks_evaluated": 15,
+  "total_bindings": 5,
+  "bindings": [
+    {
+      "track_id": 92,
+      "roster_id": "p07",
+      "player_name": "Kevin De Bruyne",
+      "jersey_number": 17,
+      "device_id": "H10-3F2A",
+      "binding_method": "roster_preassignment",
+      "confidence": 0.85,
+      "ocr_detected_number": null,
+      "ocr_confidence": 0.0,
+      "status": "confirmed"
+    },
+    {
+      "track_id": 383,
+      "roster_id": "p09",
+      "player_name": "Erling Haaland",
+      "jersey_number": 9,
+      "device_id": "H10-8B1C",
+      "binding_method": "roster_preassignment",
+      "confidence": 0.85,
+      "ocr_detected_number": null,
+      "ocr_confidence": 0.0,
+      "status": "confirmed"
+    },
+    {
+      "track_id": 131,
+      "roster_id": "p10",
+      "player_name": "Jack Grealish",
+      "jersey_number": 10,
+      "device_id": "VS-99A1",
+      "binding_method": "roster_preassignment",
+      "confidence": 0.85,
+      "ocr_detected_number": null,
+      "ocr_confidence": 0.0,
+      "status": "confirmed"
+    },
+    {
+      "track_id": 181,
+      "roster_id": "p16",
+      "player_name": "Rodri",
+      "jersey_number": 16,
+      "device_id": "H10-44DE",
+      "binding_method": "roster_preassignment",
+      "confidence": 0.85,
+      "ocr_detected_number": null,
+      "ocr_confidence": 0.0,
+      "status": "confirmed"
+    },
+    {
+      "track_id": 13,
+      "roster_id": null,
+      "player_name": null,
+      "jersey_number": 9,
+      "device_id": null,
+      "binding_method": "unassigned_review_needed",
+      "confidence": 0.213,
+      "status": "conflict_or_low_confidence"
+    }
+  ],
+  "ocr_predictions": {
+    "8": {
+      "track_id": 8,
+      "top_number": 4,
+      "confidence": 0.563,
+      "raw_confidence": 0.563,
+      "votes": 1,
+      "support_sightings": 1,
+      "all_candidates": {
+        "4": 1
+      }
+    },
+    "38": {
+      "track_id": 38,
+      "top_number": 3,
+      "confidence": 0.471,
+      "raw_confidence": 0.471,
+      "votes": 1,
+      "support_sightings": 1,
+      "all_candidates": {
+        "3": 1
+      }
+    },
+    "13": {
+      "track_id": 13,
+      "top_number": 9,
+      "confidence": 0.213,
+      "raw_confidence": 0.426,
+      "votes": 2,
+      "support_sightings": 4,
+      "all_candidates": {
+        "4": 1,
+        "7": 1,
+        "9": 2
+      }
+    },
+    "6": {
+      "track_id": 6,
+      "top_number": 4,
+      "confidence": 0.42,
+      "raw_confidence": 0.42,
+      "votes": 2,
+      "support_sightings": 2,
+      "all_candidates": {
+        "4": 2
+      }
+    },
+    "22": {
+      "track_id": 22,
+      "top_number": 4,
+      "confidence": 0.465,
+      "raw_confidence": 0.465,
+      "votes": 2,
+      "support_sightings": 2,
+      "all_candidates": {
+        "4": 2
+      }
+    },
+    "7": {
+      "track_id": 7,
+      "top_number": 5,
+      "confidence": 0.427,
+      "raw_confidence": 0.427,
+      "votes": 1,
+      "support_sightings": 1,
+      "all_candidates": {
+        "5": 1
+      }
+    },
+    "68": {
+      "track_id": 68,
+      "top_number": 2,
+      "confidence": 0.447,
+      "raw_confidence": 0.447,
+      "votes": 1,
+      "support_sightings": 1,
+      "all_candidates": {
+        "2": 1
+      }
+    },
+    "10": {
+      "track_id": 10,
+      "top_number": 3,
+      "confidence": 0.148,
+      "raw_confidence": 0.445,
+      "votes": 1,
+      "support_sightings": 3,
+      "all_candidates": {
+        "3": 1,
+        "71": 1,
+        "0": 1
+      }
+    },
+    "90": {
+      "track_id": 90,
+      "top_number": 2,
+      "confidence": 0.202,
+      "raw_confidence": 0.403,
+      "votes": 1,
+      "support_sightings": 2,
+      "all_candidates": {
+        "2": 1,
+        "4": 1
+      }
+    },
+    "105": {
+      "track_id": 105,
+      "top_number": 4,
+      "confidence": 0.417,
+      "raw_confidence": 0.417,
+      "votes": 1,
+      "support_sightings": 1,
+      "all_candidates": {
+        "4": 1
+      }
+    },
+    "3": {
+      "track_id": 3,
+      "top_number": 4,
+      "confidence": 0.412,
+      "raw_confidence": 0.412,
+      "votes": 1,
+      "support_sightings": 1,
+      "all_candidates": {
+        "4": 1
+      }
+    },
+    "4": {
+      "track_id": 4,
+      "top_number": 1,
+      "confidence": 0.244,
+      "raw_confidence": 0.489,
+      "votes": 4,
+      "support_sightings": 8,
+      "all_candidates": {
+        "4": 1,
+        "1": 4,
+        "8": 1,
+        "6": 1,
+        "3": 1
+      }
+    },
+    "2": {
+      "track_id": 2,
+      "top_number": 4,
+      "confidence": 0.391,
+      "raw_confidence": 0.456,
+      "votes": 6,
+      "support_sightings": 7,
+      "all_candidates": {
+        "4": 6,
+        "1": 1
+      }
+    },
+    "161": {
+      "track_id": 161,
+      "top_number": 3,
+      "confidence": 0.441,
+      "raw_confidence": 0.441,
+      "votes": 1,
+      "support_sightings": 1,
+      "all_candidates": {
+        "3": 1
+      }
+    },
+    "165": {
+      "track_id": 165,
+      "top_number": 1,
+      "confidence": 0.43,
+      "raw_confidence": 0.574,
+      "votes": 3,
+      "support_sightings": 4,
+      "all_candidates": {
+        "1": 3,
+        "7": 1
+      }
+    }
+  }
+}

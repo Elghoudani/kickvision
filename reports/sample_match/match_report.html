@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kickvision Pro — 0bfacc_0 Match Report</title>
+    <style>
+        :root {
+            --bg-main: #0d1117;
+            --bg-card: #161b22;
+            --border-card: #30363d;
+            --text-main: #e6edf3;
+            --text-muted: #8b949e;
+            --accent: #58a6ff;
+            --accent-green: #238636;
+            --accent-green-light: #3fb950;
+            --accent-red: #da3633;
+            --accent-yellow: #d29922;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            padding: 32px 24px;
+            line-height: 1.5;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-card);
+            padding-bottom: 20px;
+            margin-bottom: 24px;
+        }
+        .header-title h1 { font-size: 26px; font-weight: 700; color: #ffffff; letter-spacing: -0.5px; }
+        .header-title p { color: var(--text-muted); font-size: 14px; margin-top: 4px; }
+        .badge-verified {
+            background-color: rgba(63, 185, 80, 0.15);
+            border: 1px solid var(--accent-green-light);
+            color: var(--accent-green-light);
+            font-size: 12px;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 20px;
+            text-transform: uppercase;
+        }
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        .card h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 14px;
+            border-bottom: 1px solid var(--border-card);
+            padding-bottom: 8px;
+        }
+        .stat-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-card);
+            border-radius: 8px;
+            padding: 16px;
+        }
+        .stat-label { color: var(--text-muted); font-size: 12px; text-transform: uppercase; font-weight: 600; }
+        .stat-val { font-size: 28px; font-weight: 700; color: #ffffff; margin: 4px 0; }
+        .stat-sub { font-size: 12px; color: var(--text-muted); }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+            text-align: left;
+        }
+        th {
+            background: #21262d;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 11px;
+            padding: 10px 14px;
+            border-bottom: 1px solid var(--border-card);
+        }
+        td {
+            padding: 12px 14px;
+            border-bottom: 1px solid var(--border-card);
+        }
+        tr:hover { background-color: rgba(255, 255, 255, 0.02); }
+        .row-greyed { opacity: 0.45; }
+
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+        .badge-success { background: rgba(63, 185, 80, 0.2); color: #3fb950; }
+        .badge-muted { background: rgba(139, 148, 158, 0.2); color: #8b949e; }
+        .badge-info { background: rgba(88, 166, 255, 0.2); color: #58a6ff; }
+        .badge-warning { background: rgba(210, 153, 34, 0.2); color: #d29922; }
+        .badge-danger { background: rgba(218, 54, 51, 0.2); color: #f85149; }
+
+        .zone-bar-container {
+            display: flex;
+            height: 10px;
+            width: 140px;
+            border-radius: 5px;
+            overflow: hidden;
+            background: #30363d;
+        }
+
+        .goal-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 16px;
+        }
+        .goal-svg {
+            background: #0d1117;
+            border: 1px solid var(--border-card);
+            border-radius: 8px;
+        }
+
+        @media print {
+            body { background: #ffffff; color: #000000; padding: 0; }
+            .card { border: 1px solid #cccccc; background: #ffffff; color: #000000; break-inside: avoid; }
+            th { background: #f0f0f0; color: #333333; }
+            td { border-bottom: 1px solid #e0e0e0; color: #111111; }
+            .stat-val { color: #000000; }
+            .header-title h1 { color: #000000; }
+        }
+    </style>
+</head>
+<body>
+<div style="background:#7f1d1d;color:#fff;padding:14px 18px;font:600 14px/1.5 system-ui,sans-serif;text-align:center;letter-spacing:.02em">SYNTHETIC DEMONSTRATION DATA &mdash; player names are recognisable placeholders and every physiological value shown (heart rate, TRIMP, HR zones) is generated, not measured. No real athlete was recorded.</div>
+
+
+    <header class="header">
+        <div class="header-title">
+            <h1>Kickvision Match & Performance Dashboard</h1>
+            <p>Session: <strong>session01</strong> &bull; Sideline Camera: <strong>Logitech C922 (Elevated 6.5m)</strong> &bull; Calibration RMS: <strong>0.001 px</strong></p>
+        </div>
+        <div>
+            <span class="badge-verified">Audited & Verified</span>
+        </div>
+    </header>
+
+    <div class="grid-4">
+        <div class="stat-box">
+            <div class="stat-label">Total Shots Analyzed</div>
+            <div class="stat-val">20</div>
+            <div class="stat-sub">15 verified, 5 low-confidence</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-label">Goal-Mouth Accuracy</div>
+            <div class="stat-val">66.7%</div>
+            <div class="stat-sub">10 shots on target</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-label">Top Ball Velocity</div>
+            <div class="stat-val">105.8 <span style="font-size:16px;">km/h</span></div>
+            <div class="stat-sub">#17 Kevin De Bruyne</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-label">Total Player TRIMP Load</div>
+            <div class="stat-val">4.0</div>
+            <div class="stat-sub">Across 4 monitored squad players</div>
+        </div>
+    </div>
+
+    <section class="card">
+        <h2>Goal-Mouth Accuracy & Entry Heat Map</h2>
+        <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">
+            Ball entry points reprojected through 3D ballistic solver. Standard FIFA goal: 7.32m wide, 2.44m high. 
+            Green markers represent shots on target; red markers indicate off-target attempts.
+        </p>
+        <div class="goal-container">
+            <svg class="goal-svg" width="640" height="260" viewBox="0 0 640 260">
+                                <rect x="0" y="220" width="640" height="40" fill="#1b4d20" />
+                                <line x1="20" y1="220" x2="620" y2="220" stroke="#ffffff" stroke-width="3" />
+                                <defs>
+                    <pattern id="netPattern" width="15" height="15" patternUnits="userSpaceOnUse">
+                        <path d="M 0 0 L 15 15 M 15 0 L 0 15" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+                    </pattern>
+                </defs>
+                <rect x="50" y="40" width="540" height="180" fill="url(#netPattern)" stroke="none" />
+                                <rect x="50" y="40" width="540" height="180" fill="none" stroke="#ffffff" stroke-width="4" rx="2" />
+                                <circle cx="320.0" cy="220" r="3" fill="#ffffff" />
+                                <circle cx="418.9" cy="126.3" r="6" fill="#00e676" stroke="#ffffff" stroke-width="1.5"><title>#9 Erling Haaland — 73.2 km/h</title></circle>
+<circle cx="336.2" cy="175.0" r="6" fill="#00e676" stroke="#ffffff" stroke-width="1.5"><title>#17 Kevin De Bruyne — 102.4 km/h</title></circle>
+<circle cx="268.4" cy="100.5" r="6" fill="#00e676" stroke="#ffffff" stroke-width="1.5"><title>#10 Jack Grealish — 90.4 km/h</title></circle>
+<circle cx="140.7" cy="184.6" r="6" fill="#00e676" stroke="#ffffff" stroke-width="1.5"><title>#10 Jack Grealish — 86.0 km/h</title></circle>
+<circle cx="363.5" cy="152.9" r="6" fill="#00e676" stroke="#ffffff" stroke-width="1.5"><title>#17 Kevin De Bruyne — 89.2 km/h</title></circle>
+<circle cx="370.9" cy="178.7" r="6" fill="#00e676" stroke="#ffffff" stroke-width="1.5"><title>#16 Rodri — 80.5 km/h</title></circle>
+<circle cx="338.4" cy="163.2" r="6" fill="#00e676" stroke="#ffffff" stroke-width="1.5"><title>#17 Kevin De Bruyne — 105.8 km/h</title></circle>
+<circle cx="537.6" cy="194.9" r="6" fill="#00e676" stroke="#ffffff" stroke-width="1.5"><title>#9 Erling Haaland — 74.2 km/h</title></circle>
+<circle cx="358.4" cy="200.1" r="6" fill="#00e676" stroke="#ffffff" stroke-width="1.5"><title>#9 Erling Haaland — 98.0 km/h</title></circle>
+<circle cx="458.7" cy="186.1" r="6" fill="#00e676" stroke="#ffffff" stroke-width="1.5"><title>#17 Kevin De Bruyne — 97.9 km/h</title></circle>
+            </svg>
+        </div>
+    </section>
+
+        <section class="card">
+            <h2>Close-Range Drill Technique Analysis (P7)</h2>
+            <p>High-resolution close-range drill mode (§1 constraint: player height ≥ 150 px). Strike mechanics captured at 60/240 fps.</p>
+            <div class="grid-4">
+                <div class="stat-box">
+                    <div class="stat-label">Quality Gate</div>
+                    <div class="stat-val"><span class="badge badge-success">GATE PASSED</span></div>
+                    <div class="stat-sub">100.0% frames ≥ 0.60 conf</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Knee Flexion (Contact)</div>
+                    <div class="stat-val">176.2°</div>
+                    <div class="stat-sub">Backswing amp: 120.4°</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Trunk Lean (Contact)</div>
+                    <div class="stat-val">2.9°</div>
+                    <div class="stat-sub">+ forward over ball</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Plant Foot Spacing</div>
+                    <div class="stat-val">0.43 m</div>
+                    <div class="stat-sub">183.3 ms plant-to-strike</div>
+                </div>
+            </div>
+        </section>
+
+    <section class="card">
+        <h2>Player Physical & Physiological Workload Summary</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Player</th>
+                    <th>Distance</th>
+                    <th>Max Speed</th>
+                    <th>Metabolic Power</th>
+                    <th>Heart Rate (Mean/Max)</th>
+                    <th>TRIMP</th>
+                    <th>Edwards Zones (Z1-Z5)</th>
+                    <th>Shots</th>
+                    <th>Top Strike</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+        <tr>
+            <td><strong>#17</strong> Kevin De Bruyne</td>
+            <td>0.0 m</td>
+            <td>0.0 km/h</td>
+            <td>0.0 W/kg</td>
+            <td><strong>155</strong> bpm (max 176)</td>
+            <td>1.07</td>
+            <td>
+        <div class="zone-bar-container" title="Z1: 0.0s, Z2: 0.0s, Z3: 12.0s, Z4: 17.0s, Z5: 3.0s">
+            <div style="width: 0.0%; background-color: #90caf9;"></div>
+            <div style="width: 0.0%; background-color: #81c784;"></div>
+            <div style="width: 37.5%; background-color: #ffd54f;"></div>
+            <div style="width: 53.125%; background-color: #ff8a65;"></div>
+            <div style="width: 9.375%; background-color: #e57373;"></div>
+        </div>
+        </td>
+            <td>5 (4 OT)</td>
+            <td><strong>105.8</strong> km/h</td>
+        </tr>
+
+        <tr>
+            <td><strong>#9</strong> Erling Haaland</td>
+            <td>0.0 m</td>
+            <td>0.0 km/h</td>
+            <td>0.0 W/kg</td>
+            <td><strong>163</strong> bpm (max 185)</td>
+            <td>1.18</td>
+            <td>
+        <div class="zone-bar-container" title="Z1: 0.0s, Z2: 0.0s, Z3: 13.0s, Z4: 13.0s, Z5: 6.0s">
+            <div style="width: 0.0%; background-color: #90caf9;"></div>
+            <div style="width: 0.0%; background-color: #81c784;"></div>
+            <div style="width: 40.625%; background-color: #ffd54f;"></div>
+            <div style="width: 40.625%; background-color: #ff8a65;"></div>
+            <div style="width: 18.75%; background-color: #e57373;"></div>
+        </div>
+        </td>
+            <td>5 (3 OT)</td>
+            <td><strong>98.0</strong> km/h</td>
+        </tr>
+
+        <tr>
+            <td><strong>#10</strong> Jack Grealish</td>
+            <td>0.0 m</td>
+            <td>0.0 km/h</td>
+            <td>0.0 W/kg</td>
+            <td><strong>148</strong> bpm (max 157)</td>
+            <td>0.89</td>
+            <td>
+        <div class="zone-bar-container" title="Z1: 0.0s, Z2: 0.0s, Z3: 18.0s, Z4: 14.0s, Z5: 0.0s">
+            <div style="width: 0.0%; background-color: #90caf9;"></div>
+            <div style="width: 0.0%; background-color: #81c784;"></div>
+            <div style="width: 56.25%; background-color: #ffd54f;"></div>
+            <div style="width: 43.75%; background-color: #ff8a65;"></div>
+            <div style="width: 0.0%; background-color: #e57373;"></div>
+        </div>
+        </td>
+            <td>3 (2 OT)</td>
+            <td><strong>90.4</strong> km/h</td>
+        </tr>
+
+        <tr>
+            <td><strong>#16</strong> Rodri</td>
+            <td>0.0 m</td>
+            <td>0.0 km/h</td>
+            <td>0.0 W/kg</td>
+            <td><strong>144</strong> bpm (max 152)</td>
+            <td>0.87</td>
+            <td>
+        <div class="zone-bar-container" title="Z1: 0.0s, Z2: 0.0s, Z3: 25.0s, Z4: 7.0s, Z5: 0.0s">
+            <div style="width: 0.0%; background-color: #90caf9;"></div>
+            <div style="width: 0.0%; background-color: #81c784;"></div>
+            <div style="width: 78.125%; background-color: #ffd54f;"></div>
+            <div style="width: 21.875%; background-color: #ff8a65;"></div>
+            <div style="width: 0.0%; background-color: #e57373;"></div>
+        </div>
+        </td>
+            <td>2 (1 OT)</td>
+            <td><strong>89.6</strong> km/h</td>
+        </tr>
+        
+            </tbody>
+        </table>
+    </section>
+
+    <section class="card">
+        <h2>Shot Ballistics & Precision Audit</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Kicker</th>
+                    <th>Velocity (95% CI)</th>
+                    <th>Launch Angle</th>
+                    <th>Distance</th>
+                    <th>Result</th>
+                    <th>Confidence Audit</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+        <tr class="">
+            <td>#0</td>
+            <td>#9 Erling Haaland</td>
+            <td><strong>73.2 ± 3.2</strong> km/h</td>
+            <td>13.2°</td>
+            <td>23.0 m</td>
+            <td><span class="badge badge-success">ON TARGET</span></td>
+            <td><span class="badge badge-info">LOW</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#1</td>
+            <td>#17 Kevin De Bruyne</td>
+            <td><strong>102.4 ± 1.9</strong> km/h</td>
+            <td>8.8°</td>
+            <td>28.3 m</td>
+            <td><span class="badge badge-success">ON TARGET</span></td>
+            <td><span class="badge badge-info">LOW</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#2</td>
+            <td>#16 Rodri</td>
+            <td><strong>89.6 ± 1.2</strong> km/h</td>
+            <td>3.4°</td>
+            <td>8.8 m</td>
+            <td><span class="badge badge-muted">OFF TARGET</span></td>
+            <td><span class="badge badge-info">LOW</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#3</td>
+            <td>#10 Jack Grealish</td>
+            <td><strong>90.4 ± 17.8</strong> km/h</td>
+            <td>12.7°</td>
+            <td>35.9 m</td>
+            <td><span class="badge badge-success">ON TARGET</span></td>
+            <td><span class="badge badge-info">LOW</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#4</td>
+            <td>#9 Erling Haaland</td>
+            <td><strong>79.7 ± 3.4</strong> km/h</td>
+            <td>24.1°</td>
+            <td>50.8 m</td>
+            <td><span class="badge badge-muted">OFF TARGET</span></td>
+            <td><span class="badge badge-info">LOW</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#5</td>
+            <td>#17 Kevin De Bruyne</td>
+            <td><strong>85.1 ± 6.4</strong> km/h</td>
+            <td>0.6°</td>
+            <td>1.9 m</td>
+            <td><span class="badge badge-muted">OFF TARGET</span></td>
+            <td><span class="badge badge-info">LOW</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#6</td>
+            <td>#10 Jack Grealish</td>
+            <td><strong>86.0 ± 7.8</strong> km/h</td>
+            <td>7.9°</td>
+            <td>21.0 m</td>
+            <td><span class="badge badge-success">ON TARGET</span></td>
+            <td><span class="badge badge-info">LOW</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#7</td>
+            <td>#9 Erling Haaland</td>
+            <td><strong>63.4 ± 1.7</strong> km/h</td>
+            <td>30.8°</td>
+            <td>32.0 m</td>
+            <td><span class="badge badge-muted">OFF TARGET</span></td>
+            <td><span class="badge badge-info">MEDIUM</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#8</td>
+            <td>#17 Kevin De Bruyne</td>
+            <td><strong>89.2 ± 1.8</strong> km/h</td>
+            <td>10.4°</td>
+            <td>27.2 m</td>
+            <td><span class="badge badge-success">ON TARGET</span></td>
+            <td><span class="badge badge-info">LOW</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#9</td>
+            <td>#16 Rodri</td>
+            <td><strong>80.5 ± 6.3</strong> km/h</td>
+            <td>7.0°</td>
+            <td>16.9 m</td>
+            <td><span class="badge badge-success">ON TARGET</span></td>
+            <td><span class="badge badge-info">LOW</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#10</td>
+            <td>#17 Kevin De Bruyne</td>
+            <td><strong>105.8 ± 0.6</strong> km/h</td>
+            <td>11.7°</td>
+            <td>38.4 m</td>
+            <td><span class="badge badge-success">ON TARGET</span></td>
+            <td><span class="badge badge-info">MEDIUM</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#11</td>
+            <td>#9 Erling Haaland</td>
+            <td><strong>74.2 ± 7.9</strong> km/h</td>
+            <td>6.0°</td>
+            <td>13.1 m</td>
+            <td><span class="badge badge-success">ON TARGET</span></td>
+            <td><span class="badge badge-info">LOW</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#12</td>
+            <td>#9 Erling Haaland</td>
+            <td><strong>98.0 ± 7.3</strong> km/h</td>
+            <td>3.0°</td>
+            <td>14.1 m</td>
+            <td><span class="badge badge-success">ON TARGET</span></td>
+            <td><span class="badge badge-info">LOW</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#13</td>
+            <td>#17 Kevin De Bruyne</td>
+            <td><strong>97.9 ± 9.9</strong> km/h</td>
+            <td>4.1°</td>
+            <td>19.7 m</td>
+            <td><span class="badge badge-success">ON TARGET</span></td>
+            <td><span class="badge badge-info">LOW</span></td>
+        </tr>
+
+        <tr class="">
+            <td>#14</td>
+            <td>#10 Jack Grealish</td>
+            <td><strong>86.3 ± 9.2</strong> km/h</td>
+            <td>7.1°</td>
+            <td>21.3 m</td>
+            <td><span class="badge badge-muted">OFF TARGET</span></td>
+            <td><span class="badge badge-info">LOW</span></td>
+        </tr>
+
+        <tr class="row-greyed">
+            <td>#15</td>
+            <td>unassigned</td>
+            <td><strong>77.2 ± 4.8</strong> km/h</td>
+            <td>8.8°</td>
+            <td>19.6 m</td>
+            <td><span class="badge badge-success">ON TARGET</span></td>
+            <td><span class="badge badge-warning" title="two players within 2.0m of contact (tracks #92 and #383)">REJECTED (two players within 2.0m of contact (tracks #92 and #383))</span></td>
+        </tr>
+
+        <tr class="row-greyed">
+            <td>#16</td>
+            <td>unassigned</td>
+            <td><strong>75.9 ± 2.4</strong> km/h</td>
+            <td>9.1°</td>
+            <td>19.6 m</td>
+            <td><span class="badge badge-muted">OFF TARGET</span></td>
+            <td><span class="badge badge-warning" title="no player within 2.0m gate">REJECTED (no player within 2.0m gate)</span></td>
+        </tr>
+
+        <tr class="row-greyed">
+            <td>#17</td>
+            <td>unassigned</td>
+            <td><strong>—</strong> km/h</td>
+            <td>—</td>
+            <td>—</td>
+            <td><span class="badge badge-muted">OFF TARGET</span></td>
+            <td><span class="badge badge-warning" title="fewer than 6 observations (4 < 6)">REJECTED (fewer than 6 observations (4 < 6))</span></td>
+        </tr>
+
+        <tr class="row-greyed">
+            <td>#18</td>
+            <td>unassigned</td>
+            <td><strong>—</strong> km/h</td>
+            <td>—</td>
+            <td>—</td>
+            <td><span class="badge badge-muted">OFF TARGET</span></td>
+            <td><span class="badge badge-warning" title="fewer than 6 observations (5 < 6)">REJECTED (fewer than 6 observations (5 < 6))</span></td>
+        </tr>
+
+        <tr class="row-greyed">
+            <td>#19</td>
+            <td>unassigned</td>
+            <td><strong>—</strong> km/h</td>
+            <td>—</td>
+            <td>—</td>
+            <td><span class="badge badge-muted">OFF TARGET</span></td>
+            <td><span class="badge badge-warning" title="fewer than 6 observations (3 < 6)">REJECTED (fewer than 6 observations (3 < 6))</span></td>
+        </tr>
+        
+            </tbody>
+        </table>
+    </section>
+
+    <footer style="text-align: center; color: var(--text-muted); font-size: 12px; margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--border-card);">
+        Kickvision Pro &bull; Google Antigravity &bull; 100% Deterministic Sensor & Calibration Integrity
+    </footer>
+
+</body>
+</html>

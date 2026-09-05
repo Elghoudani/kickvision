@@ -1,0 +1,413 @@
+{
+  "data_classification": "SYNTHETIC",
+  "data_disclaimer": "SYNTHETIC DEMONSTRATION DATA. Physiological values are generated, not measured. Player names are recognisable placeholders; no real athlete was recorded. See docs/DATA_DISCLAIMER.md",
+  "schema_version": 1,
+  "total_shots": 20,
+  "shots_on_target": 11,
+  "shots": [
+    {
+      "flight_id": 0,
+      "player_track_id": 383,
+      "player_label": "#9 Erling Haaland",
+      "speed_kmh": 73.2,
+      "speed_ci_kmh": [
+        70.0,
+        76.4
+      ],
+      "launch_angle_deg": 13.2,
+      "azimuth_deg": 4.9,
+      "distance_travelled_m": 23.0,
+      "apex_height_m": 1.45,
+      "curve_lateral_m": 0.0,
+      "on_target": true,
+      "goal_entry_point_m": [
+        1.34,
+        1.27
+      ],
+      "confidence": "low",
+      "why_not": null
+    },
+    {
+      "flight_id": 1,
+      "player_track_id": 92,
+      "player_label": "#17 Kevin De Bruyne",
+      "speed_kmh": 102.4,
+      "speed_ci_kmh": [
+        100.5,
+        104.3
+      ],
+      "launch_angle_deg": 8.8,
+      "azimuth_deg": 0.5,
+      "distance_travelled_m": 28.3,
+      "apex_height_m": 1.2,
+      "curve_lateral_m": 0.0,
+      "on_target": true,
+      "goal_entry_point_m": [
+        0.22,
+        0.61
+      ],
+      "confidence": "low",
+      "why_not": null
+    },
+    {
+      "flight_id": 2,
+      "player_track_id": 181,
+      "player_label": "#16 Rodri",
+      "speed_kmh": 89.6,
+      "speed_ci_kmh": [
+        88.3,
+        90.8
+      ],
+      "launch_angle_deg": 3.4,
+      "azimuth_deg": -0.0,
+      "distance_travelled_m": 8.8,
+      "apex_height_m": 0.24,
+      "curve_lateral_m": 0.0,
+      "on_target": false,
+      "goal_entry_point_m": null,
+      "confidence": "low",
+      "why_not": null
+    },
+    {
+      "flight_id": 3,
+      "player_track_id": 131,
+      "player_label": "#10 Jack Grealish",
+      "speed_kmh": 90.4,
+      "speed_ci_kmh": [
+        72.7,
+        108.2
+      ],
+      "launch_angle_deg": 12.7,
+      "azimuth_deg": -1.2,
+      "distance_travelled_m": 35.9,
+      "apex_height_m": 2.11,
+      "curve_lateral_m": 0.0,
+      "on_target": true,
+      "goal_entry_point_m": [
+        -0.7,
+        1.62
+      ],
+      "confidence": "low",
+      "why_not": null
+    },
+    {
+      "flight_id": 4,
+      "player_track_id": 383,
+      "player_label": "#9 Erling Haaland",
+      "speed_kmh": 79.7,
+      "speed_ci_kmh": [
+        76.2,
+        83.1
+      ],
+      "launch_angle_deg": 24.1,
+      "azimuth_deg": 3.3,
+      "distance_travelled_m": 50.8,
+      "apex_height_m": 5.6,
+      "curve_lateral_m": 0.0,
+      "on_target": false,
+      "goal_entry_point_m": null,
+      "confidence": "low",
+      "why_not": null
+    },
+    {
+      "flight_id": 5,
+      "player_track_id": 92,
+      "player_label": "#17 Kevin De Bruyne",
+      "speed_kmh": 85.1,
+      "speed_ci_kmh": [
+        78.8,
+        91.5
+      ],
+      "launch_angle_deg": 0.6,
+      "azimuth_deg": 3.5,
+      "distance_travelled_m": 1.9,
+      "apex_height_m": 0.12,
+      "curve_lateral_m": 0.0,
+      "on_target": false,
+      "goal_entry_point_m": null,
+      "confidence": "low",
+      "why_not": null
+    },
+    {
+      "flight_id": 6,
+      "player_track_id": 131,
+      "player_label": "#10 Jack Grealish",
+      "speed_kmh": 86.0,
+      "speed_ci_kmh": [
+        78.2,
+        93.8
+      ],
+      "launch_angle_deg": 7.9,
+      "azimuth_deg": -7.0,
+      "distance_travelled_m": 21.0,
+      "apex_height_m": 0.84,
+      "curve_lateral_m": 0.0,
+      "on_target": true,
+      "goal_entry_point_m": [
+        -2.43,
+        0.48
+      ],
+      "confidence": "low",
+      "why_not": null
+    },
+    {
+      "flight_id": 7,
+      "player_track_id": 383,
+      "player_label": "#9 Erling Haaland",
+      "speed_kmh": 63.4,
+      "speed_ci_kmh": [
+        61.6,
+        65.1
+      ],
+      "launch_angle_deg": 30.8,
+      "azimuth_deg": 5.6,
+      "distance_travelled_m": 32.0,
+      "apex_height_m": 4.62,
+      "curve_lateral_m": 0.0,
+      "on_target": false,
+      "goal_entry_point_m": null,
+      "confidence": "medium",
+      "why_not": null
+    },
+    {
+      "flight_id": 8,
+      "player_track_id": 92,
+      "player_label": "#17 Kevin De Bruyne",
+      "speed_kmh": 89.2,
+      "speed_ci_kmh": [
+        87.5,
+        91.0
+      ],
+      "launch_angle_deg": 10.4,
+      "azimuth_deg": 1.6,
+      "distance_travelled_m": 27.2,
+      "apex_height_m": 1.35,
+      "curve_lateral_m": 0.0,
+      "on_target": true,
+      "goal_entry_point_m": [
+        0.59,
+        0.91
+      ],
+      "confidence": "low",
+      "why_not": null
+    },
+    {
+      "flight_id": 9,
+      "player_track_id": 181,
+      "player_label": "#16 Rodri",
+      "speed_kmh": 80.5,
+      "speed_ci_kmh": [
+        74.2,
+        86.8
+      ],
+      "launch_angle_deg": 7.0,
+      "azimuth_deg": 3.4,
+      "distance_travelled_m": 16.9,
+      "apex_height_m": 0.63,
+      "curve_lateral_m": 0.0,
+      "on_target": true,
+      "goal_entry_point_m": [
+        0.69,
+        0.56
+      ],
+      "confidence": "low",
+      "why_not": null
+    },
+    {
+      "flight_id": 10,
+      "player_track_id": 92,
+      "player_label": "#17 Kevin De Bruyne",
+      "speed_kmh": 105.8,
+      "speed_ci_kmh": [
+        105.2,
+        106.5
+      ],
+      "launch_angle_deg": 11.7,
+      "azimuth_deg": 0.4,
+      "distance_travelled_m": 38.4,
+      "apex_height_m": 2.08,
+      "curve_lateral_m": 0.0,
+      "on_target": true,
+      "goal_entry_point_m": [
+        0.25,
+        0.77
+      ],
+      "confidence": "medium",
+      "why_not": null
+    },
+    {
+      "flight_id": 11,
+      "player_track_id": 383,
+      "player_label": "#9 Erling Haaland",
+      "speed_kmh": 74.2,
+      "speed_ci_kmh": [
+        66.3,
+        82.1
+      ],
+      "launch_angle_deg": 6.0,
+      "azimuth_deg": 16.2,
+      "distance_travelled_m": 13.1,
+      "apex_height_m": 0.45,
+      "curve_lateral_m": 0.0,
+      "on_target": true,
+      "goal_entry_point_m": [
+        2.95,
+        0.34
+      ],
+      "confidence": "low",
+      "why_not": null
+    },
+    {
+      "flight_id": 12,
+      "player_track_id": 383,
+      "player_label": "#9 Erling Haaland",
+      "speed_kmh": 98.0,
+      "speed_ci_kmh": [
+        90.7,
+        105.3
+      ],
+      "launch_angle_deg": 3.0,
+      "azimuth_deg": 3.2,
+      "distance_travelled_m": 14.1,
+      "apex_height_m": 0.29,
+      "curve_lateral_m": 0.0,
+      "on_target": true,
+      "goal_entry_point_m": [
+        0.52,
+        0.27
+      ],
+      "confidence": "low",
+      "why_not": null
+    },
+    {
+      "flight_id": 13,
+      "player_track_id": 92,
+      "player_label": "#17 Kevin De Bruyne",
+      "speed_kmh": 97.9,
+      "speed_ci_kmh": [
+        88.0,
+        107.7
+      ],
+      "launch_angle_deg": 4.1,
+      "azimuth_deg": 11.6,
+      "distance_travelled_m": 19.7,
+      "apex_height_m": 0.47,
+      "curve_lateral_m": 0.0,
+      "on_target": true,
+      "goal_entry_point_m": [
+        1.88,
+        0.46
+      ],
+      "confidence": "low",
+      "why_not": null
+    },
+    {
+      "flight_id": 14,
+      "player_track_id": 131,
+      "player_label": "#10 Jack Grealish",
+      "speed_kmh": 86.3,
+      "speed_ci_kmh": [
+        77.1,
+        95.4
+      ],
+      "launch_angle_deg": 7.1,
+      "azimuth_deg": -21.7,
+      "distance_travelled_m": 21.3,
+      "apex_height_m": 0.77,
+      "curve_lateral_m": 0.0,
+      "on_target": false,
+      "goal_entry_point_m": null,
+      "confidence": "low",
+      "why_not": null
+    },
+    {
+      "flight_id": 15,
+      "player_track_id": null,
+      "player_label": "unassigned",
+      "speed_kmh": 77.2,
+      "speed_ci_kmh": [
+        72.5,
+        82.0
+      ],
+      "launch_angle_deg": 8.8,
+      "azimuth_deg": 2.5,
+      "distance_travelled_m": 19.6,
+      "apex_height_m": 0.86,
+      "curve_lateral_m": 0.0,
+      "on_target": true,
+      "goal_entry_point_m": [
+        0.83,
+        0.2
+      ],
+      "confidence": "low",
+      "why_not": "two players within 2.0m of contact (tracks #92 and #383)"
+    },
+    {
+      "flight_id": 16,
+      "player_track_id": null,
+      "player_label": "unassigned",
+      "speed_kmh": 75.9,
+      "speed_ci_kmh": [
+        73.5,
+        78.2
+      ],
+      "launch_angle_deg": 9.1,
+      "azimuth_deg": -15.5,
+      "distance_travelled_m": 19.6,
+      "apex_height_m": 0.89,
+      "curve_lateral_m": 0.0,
+      "on_target": false,
+      "goal_entry_point_m": null,
+      "confidence": "low",
+      "why_not": "no player within 2.0m gate"
+    },
+    {
+      "flight_id": 17,
+      "player_track_id": null,
+      "player_label": "unassigned",
+      "speed_kmh": null,
+      "speed_ci_kmh": null,
+      "launch_angle_deg": null,
+      "azimuth_deg": null,
+      "distance_travelled_m": null,
+      "apex_height_m": null,
+      "curve_lateral_m": null,
+      "on_target": false,
+      "goal_entry_point_m": null,
+      "confidence": "low",
+      "why_not": "fewer than 6 observations (4 < 6)"
+    },
+    {
+      "flight_id": 18,
+      "player_track_id": null,
+      "player_label": "unassigned",
+      "speed_kmh": null,
+      "speed_ci_kmh": null,
+      "launch_angle_deg": null,
+      "azimuth_deg": null,
+      "distance_travelled_m": null,
+      "apex_height_m": null,
+      "curve_lateral_m": null,
+      "on_target": false,
+      "goal_entry_point_m": null,
+      "confidence": "low",
+      "why_not": "fewer than 6 observations (5 < 6)"
+    },
+    {
+      "flight_id": 19,
+      "player_track_id": null,
+      "player_label": "unassigned",
+      "speed_kmh": null,
+      "speed_ci_kmh": null,
+      "launch_angle_deg": null,
+      "azimuth_deg": null,
+      "distance_travelled_m": null,
+      "apex_height_m": null,
+      "curve_lateral_m": null,
+      "on_target": false,
+      "goal_entry_point_m": null,
+      "confidence": "low",
+      "why_not": "fewer than 6 observations (3 < 6)"
+    }
+  ]
+}

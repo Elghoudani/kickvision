@@ -1,0 +1,129 @@
+roster_id,player_name,timestamp_s,hr_bpm
+p07,Kevin De Bruyne,0.0,136.0
+p07,Kevin De Bruyne,0.6,137.0
+p07,Kevin De Bruyne,1.6,138.0
+p07,Kevin De Bruyne,2.6,136.0
+p07,Kevin De Bruyne,3.6,137.0
+p07,Kevin De Bruyne,4.6,138.0
+p07,Kevin De Bruyne,5.6,136.0
+p07,Kevin De Bruyne,6.6,140.0
+p07,Kevin De Bruyne,7.6,145.0
+p07,Kevin De Bruyne,8.6,150.0
+p07,Kevin De Bruyne,9.6,155.0
+p07,Kevin De Bruyne,10.6,160.0
+p07,Kevin De Bruyne,11.6,166.0
+p07,Kevin De Bruyne,12.6,171.0
+p07,Kevin De Bruyne,13.6,176.0
+p07,Kevin De Bruyne,14.6,176.0
+p07,Kevin De Bruyne,15.6,173.0
+p07,Kevin De Bruyne,16.6,171.0
+p07,Kevin De Bruyne,17.6,168.0
+p07,Kevin De Bruyne,18.6,166.0
+p07,Kevin De Bruyne,19.6,163.0
+p07,Kevin De Bruyne,20.6,161.0
+p07,Kevin De Bruyne,21.6,160.0
+p07,Kevin De Bruyne,22.6,159.0
+p07,Kevin De Bruyne,23.6,158.0
+p07,Kevin De Bruyne,24.6,157.0
+p07,Kevin De Bruyne,25.6,157.0
+p07,Kevin De Bruyne,26.6,156.0
+p07,Kevin De Bruyne,27.6,155.0
+p07,Kevin De Bruyne,28.6,154.0
+p07,Kevin De Bruyne,29.6,153.0
+p07,Kevin De Bruyne,30.0,153.0
+p09,Erling Haaland,0.0,145.0
+p09,Erling Haaland,0.6,142.0
+p09,Erling Haaland,1.6,143.0
+p09,Erling Haaland,2.6,144.0
+p09,Erling Haaland,3.6,145.0
+p09,Erling Haaland,4.6,142.0
+p09,Erling Haaland,5.6,143.0
+p09,Erling Haaland,6.6,144.0
+p09,Erling Haaland,7.6,145.0
+p09,Erling Haaland,8.6,145.0
+p09,Erling Haaland,9.6,149.0
+p09,Erling Haaland,10.6,153.0
+p09,Erling Haaland,11.6,157.0
+p09,Erling Haaland,12.6,161.0
+p09,Erling Haaland,13.6,165.0
+p09,Erling Haaland,14.6,169.0
+p09,Erling Haaland,15.6,173.0
+p09,Erling Haaland,16.6,177.0
+p09,Erling Haaland,17.6,181.0
+p09,Erling Haaland,18.6,185.0
+p09,Erling Haaland,19.6,183.0
+p09,Erling Haaland,20.6,182.0
+p09,Erling Haaland,21.6,180.0
+p09,Erling Haaland,22.6,179.0
+p09,Erling Haaland,23.6,177.0
+p09,Erling Haaland,24.6,176.0
+p09,Erling Haaland,25.6,174.0
+p09,Erling Haaland,26.6,173.0
+p09,Erling Haaland,27.6,171.0
+p09,Erling Haaland,28.6,170.0
+p09,Erling Haaland,29.6,168.0
+p09,Erling Haaland,30.0,167.0
+p10,Jack Grealish,0.0,152.0
+p10,Jack Grealish,0.6,154.0
+p10,Jack Grealish,1.6,155.0
+p10,Jack Grealish,2.6,156.0
+p10,Jack Grealish,3.6,157.0
+p10,Jack Grealish,4.6,157.0
+p10,Jack Grealish,5.6,157.0
+p10,Jack Grealish,6.6,157.0
+p10,Jack Grealish,7.6,157.0
+p10,Jack Grealish,8.6,157.0
+p10,Jack Grealish,9.6,156.0
+p10,Jack Grealish,10.6,155.0
+p10,Jack Grealish,11.6,153.0
+p10,Jack Grealish,12.6,152.0
+p10,Jack Grealish,13.6,151.0
+p10,Jack Grealish,14.6,149.0
+p10,Jack Grealish,15.6,147.0
+p10,Jack Grealish,16.6,146.0
+p10,Jack Grealish,17.6,144.0
+p10,Jack Grealish,18.6,142.0
+p10,Jack Grealish,19.6,141.0
+p10,Jack Grealish,20.6,140.0
+p10,Jack Grealish,21.6,139.0
+p10,Jack Grealish,22.6,138.0
+p10,Jack Grealish,23.6,138.0
+p10,Jack Grealish,24.6,138.0
+p10,Jack Grealish,25.6,138.0
+p10,Jack Grealish,26.6,138.0
+p10,Jack Grealish,27.6,139.0
+p10,Jack Grealish,28.6,139.0
+p10,Jack Grealish,29.6,140.0
+p10,Jack Grealish,30.0,142.0
+p16,Rodri,0.0,149.0
+p16,Rodri,0.6,149.0
+p16,Rodri,1.6,151.0
+p16,Rodri,2.6,151.0
+p16,Rodri,3.6,152.0
+p16,Rodri,4.6,151.0
+p16,Rodri,5.6,152.0
+p16,Rodri,6.6,151.0
+p16,Rodri,7.6,151.0
+p16,Rodri,8.6,149.0
+p16,Rodri,9.6,149.0
+p16,Rodri,10.6,146.0
+p16,Rodri,11.6,146.0
+p16,Rodri,12.6,143.0
+p16,Rodri,13.6,142.0
+p16,Rodri,14.6,140.0
+p16,Rodri,15.6,140.0
+p16,Rodri,16.6,137.0
+p16,Rodri,17.6,138.0
+p16,Rodri,18.6,136.0
+p16,Rodri,19.6,137.0
+p16,Rodri,20.6,136.0
+p16,Rodri,21.6,137.0
+p16,Rodri,22.6,136.0
+p16,Rodri,23.6,138.0
+p16,Rodri,24.6,138.0
+p16,Rodri,25.6,141.0
+p16,Rodri,26.6,141.0
+p16,Rodri,27.6,144.0
+p16,Rodri,28.6,144.0
+p16,Rodri,29.6,147.0
+p16,Rodri,30.0,147.0

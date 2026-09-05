@@ -1,0 +1,1295 @@
+{
+  "video": "data/clips/0bfacc_0.mp4",
+  "total_tracks": 70,
+  "team_0": {
+    "name": "Team 0 (Mixed)",
+    "color_bgr": [
+      133,
+      174,
+      174
+    ],
+    "centroid_lab": [
+      179.5,
+      121.5,
+      150.0
+    ],
+    "player_count": 30
+  },
+  "team_1": {
+    "name": "Team 1 (Red)",
+    "color_bgr": [
+      58,
+      81,
+      132
+    ],
+    "centroid_lab": [
+      101.4,
+      147.9,
+      150.4
+    ],
+    "player_count": 39
+  },
+  "outliers_count": 1,
+  "track_assignments": {
+    "1": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        40.0,
+        127.0,
+        133.0
+      ],
+      "cluster_dist": 34.7,
+      "is_outlier": false,
+      "sample_count": 38
+    },
+    "2": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        200.5,
+        127.0,
+        138.0
+      ],
+      "cluster_dist": 15.1,
+      "is_outlier": false,
+      "sample_count": 40
+    },
+    "3": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        189.8,
+        125.0,
+        140.0
+      ],
+      "cluster_dist": 11.2,
+      "is_outlier": false,
+      "sample_count": 40
+    },
+    "4": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        127.0,
+        148.0,
+        157.0
+      ],
+      "cluster_dist": 11.1,
+      "is_outlier": false,
+      "sample_count": 23
+    },
+    "5": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        53.0,
+        128.0,
+        135.0
+      ],
+      "cluster_dist": 30.4,
+      "is_outlier": false,
+      "sample_count": 40
+    },
+    "6": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        104.0,
+        113.0,
+        162.0
+      ],
+      "cluster_dist": 30.2,
+      "is_outlier": false,
+      "sample_count": 3
+    },
+    "7": {
+      "team_id": -1,
+      "team_name": "Goalkeeper (Yellow/Lime)",
+      "role": "Goalkeeper",
+      "color_bgr": [
+        124,
+        252,
+        250
+      ],
+      "color_lab": [
+        246.5,
+        111.0,
+        188.2
+      ],
+      "cluster_dist": 46.1,
+      "is_outlier": true,
+      "sample_count": 10
+    },
+    "8": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        117.0,
+        155.0,
+        157.5
+      ],
+      "cluster_dist": 11.4,
+      "is_outlier": false,
+      "sample_count": 4
+    },
+    "9": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        53.0,
+        127.0,
+        133.0
+      ],
+      "cluster_dist": 32.1,
+      "is_outlier": false,
+      "sample_count": 16
+    },
+    "10": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        187.0,
+        123.5,
+        140.5
+      ],
+      "cluster_dist": 10.0,
+      "is_outlier": false,
+      "sample_count": 22
+    },
+    "11": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        151.5,
+        122.0,
+        157.0
+      ],
+      "cluster_dist": 12.1,
+      "is_outlier": false,
+      "sample_count": 7
+    },
+    "12": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        192.2,
+        126.0,
+        138.2
+      ],
+      "cluster_dist": 13.3,
+      "is_outlier": false,
+      "sample_count": 2
+    },
+    "13": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        152.2,
+        127.0,
+        146.5
+      ],
+      "cluster_dist": 11.5,
+      "is_outlier": false,
+      "sample_count": 12
+    },
+    "14": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        198.5,
+        120.0,
+        143.0
+      ],
+      "cluster_dist": 9.8,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "15": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        180.5,
+        128.0,
+        135.0
+      ],
+      "cluster_dist": 16.3,
+      "is_outlier": false,
+      "sample_count": 31
+    },
+    "16": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        133.0,
+        150.2,
+        155.0
+      ],
+      "cluster_dist": 12.2,
+      "is_outlier": false,
+      "sample_count": 2
+    },
+    "17": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        213.5,
+        126.0,
+        138.0
+      ],
+      "cluster_dist": 17.5,
+      "is_outlier": false,
+      "sample_count": 17
+    },
+    "18": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        225.5,
+        128.0,
+        135.0
+      ],
+      "cluster_dist": 22.9,
+      "is_outlier": false,
+      "sample_count": 9
+    },
+    "19": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        121.0,
+        157.5,
+        155.0
+      ],
+      "cluster_dist": 12.6,
+      "is_outlier": false,
+      "sample_count": 4
+    },
+    "20": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        138.5,
+        143.5,
+        158.0
+      ],
+      "cluster_dist": 15.7,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "21": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        76.0,
+        131.0,
+        137.0
+      ],
+      "cluster_dist": 23.3,
+      "is_outlier": false,
+      "sample_count": 7
+    },
+    "22": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        149.0,
+        122.0,
+        156.0
+      ],
+      "cluster_dist": 12.3,
+      "is_outlier": false,
+      "sample_count": 5
+    },
+    "43": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        104.0,
+        139.0,
+        150.0
+      ],
+      "cluster_dist": 9.0,
+      "is_outlier": false,
+      "sample_count": 5
+    },
+    "51": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        117.0,
+        157.0,
+        155.0
+      ],
+      "cluster_dist": 11.5,
+      "is_outlier": false,
+      "sample_count": 5
+    },
+    "63": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        118.0,
+        156.0,
+        156.0
+      ],
+      "cluster_dist": 11.4,
+      "is_outlier": false,
+      "sample_count": 5
+    },
+    "66": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        134.0,
+        113.0,
+        168.0
+      ],
+      "cluster_dist": 25.5,
+      "is_outlier": false,
+      "sample_count": 7
+    },
+    "68": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        127.0,
+        114.0,
+        166.0
+      ],
+      "cluster_dist": 25.5,
+      "is_outlier": false,
+      "sample_count": 17
+    },
+    "79": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        108.0,
+        159.0,
+        154.0
+      ],
+      "cluster_dist": 11.9,
+      "is_outlier": false,
+      "sample_count": 22
+    },
+    "85": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        76.0,
+        130.0,
+        139.0
+      ],
+      "cluster_dist": 23.0,
+      "is_outlier": false,
+      "sample_count": 7
+    },
+    "90": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        114.5,
+        152.0,
+        153.0
+      ],
+      "cluster_dist": 6.7,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "98": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        110.0,
+        158.5,
+        155.0
+      ],
+      "cluster_dist": 11.9,
+      "is_outlier": false,
+      "sample_count": 22
+    },
+    "99": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        96.8,
+        154.0,
+        152.0
+      ],
+      "cluster_dist": 6.5,
+      "is_outlier": false,
+      "sample_count": 6
+    },
+    "100": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        107.0,
+        156.0,
+        155.0
+      ],
+      "cluster_dist": 9.5,
+      "is_outlier": false,
+      "sample_count": 19
+    },
+    "107": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        215.0,
+        128.0,
+        136.0
+      ],
+      "cluster_dist": 19.8,
+      "is_outlier": false,
+      "sample_count": 19
+    },
+    "121": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        95.2,
+        156.5,
+        152.8
+      ],
+      "cluster_dist": 9.2,
+      "is_outlier": false,
+      "sample_count": 6
+    },
+    "125": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        190.0,
+        125.0,
+        139.0
+      ],
+      "cluster_dist": 12.1,
+      "is_outlier": false,
+      "sample_count": 17
+    },
+    "137": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        216.0,
+        127.0,
+        135.5
+      ],
+      "cluster_dist": 20.1,
+      "is_outlier": false,
+      "sample_count": 9
+    },
+    "140": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        80.0,
+        130.0,
+        139.0
+      ],
+      "cluster_dist": 22.5,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "149": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        110.0,
+        155.2,
+        156.5
+      ],
+      "cluster_dist": 10.0,
+      "is_outlier": false,
+      "sample_count": 2
+    },
+    "161": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        153.0,
+        116.0,
+        167.0
+      ],
+      "cluster_dist": 20.1,
+      "is_outlier": false,
+      "sample_count": 5
+    },
+    "167": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        108.0,
+        156.0,
+        154.0
+      ],
+      "cluster_dist": 9.1,
+      "is_outlier": false,
+      "sample_count": 11
+    },
+    "183": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        101.5,
+        154.0,
+        155.0
+      ],
+      "cluster_dist": 7.6,
+      "is_outlier": false,
+      "sample_count": 7
+    },
+    "187": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        112.0,
+        112.0,
+        162.0
+      ],
+      "cluster_dist": 28.2,
+      "is_outlier": false,
+      "sample_count": 3
+    },
+    "197": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        190.0,
+        114.0,
+        171.0
+      ],
+      "cluster_dist": 22.6,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "201": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        115.0,
+        155.0,
+        154.0
+      ],
+      "cluster_dist": 9.3,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "202": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        221.0,
+        125.5,
+        137.5
+      ],
+      "cluster_dist": 19.6,
+      "is_outlier": false,
+      "sample_count": 2
+    },
+    "204": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        100.5,
+        162.0,
+        154.0
+      ],
+      "cluster_dist": 14.5,
+      "is_outlier": false,
+      "sample_count": 4
+    },
+    "213": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        117.2,
+        148.5,
+        155.5
+      ],
+      "cluster_dist": 7.6,
+      "is_outlier": false,
+      "sample_count": 2
+    },
+    "38": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        139.0,
+        132.0,
+        157.0
+      ],
+      "cluster_dist": 19.0,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "44": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        105.0,
+        155.0,
+        154.0
+      ],
+      "cluster_dist": 8.0,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "54": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        125.5,
+        152.0,
+        155.0
+      ],
+      "cluster_dist": 10.4,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "56": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        117.5,
+        148.5,
+        154.0
+      ],
+      "cluster_dist": 6.7,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "59": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        123.0,
+        151.0,
+        157.0
+      ],
+      "cluster_dist": 10.5,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "67": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        200.0,
+        128.0,
+        133.0
+      ],
+      "cluster_dist": 19.5,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "72": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        172.0,
+        118.0,
+        145.0
+      ],
+      "cluster_dist": 6.6,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "89": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        74.0,
+        130.0,
+        139.0
+      ],
+      "cluster_dist": 23.3,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "105": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        161.0,
+        126.0,
+        145.0
+      ],
+      "cluster_dist": 9.3,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "106": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        119.0,
+        155.0,
+        154.0
+      ],
+      "cluster_dist": 10.0,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "109": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        224.5,
+        128.0,
+        136.0
+      ],
+      "cluster_dist": 22.0,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "124": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        55.0,
+        126.0,
+        137.0
+      ],
+      "cluster_dist": 30.4,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "146": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        135.0,
+        116.0,
+        165.0
+      ],
+      "cluster_dist": 22.3,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "148": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        109.5,
+        157.0,
+        154.0
+      ],
+      "cluster_dist": 10.2,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "165": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        107.0,
+        155.5,
+        155.0
+      ],
+      "cluster_dist": 9.1,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "166": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        134.0,
+        155.5,
+        153.5
+      ],
+      "cluster_dist": 14.0,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "170": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        86.0,
+        137.0,
+        141.0
+      ],
+      "cluster_dist": 15.4,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "175": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        139.0,
+        141.0,
+        158.0
+      ],
+      "cluster_dist": 16.7,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "176": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        146.0,
+        136.0,
+        152.0
+      ],
+      "cluster_dist": 18.8,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "194": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        205.5,
+        115.0,
+        172.0
+      ],
+      "cluster_dist": 24.7,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "203": {
+      "team_id": 1,
+      "team_name": "Team 1 (Red)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        58,
+        81,
+        132
+      ],
+      "color_lab": [
+        120.0,
+        156.0,
+        153.0
+      ],
+      "cluster_dist": 10.7,
+      "is_outlier": false,
+      "sample_count": 1
+    },
+    "210": {
+      "team_id": 0,
+      "team_name": "Team 0 (Mixed)",
+      "role": "Outfield Player",
+      "color_bgr": [
+        133,
+        174,
+        174
+      ],
+      "color_lab": [
+        174.5,
+        113.0,
+        170.0
+      ],
+      "cluster_dist": 21.8,
+      "is_outlier": false,
+      "sample_count": 1
+    }
+  }
+}

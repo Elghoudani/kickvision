@@ -1,0 +1,5 @@
+roster_id,player_name,jersey_number,track_id,total_distance_m,max_speed_kmh,mean_power_w_kg,mean_hr_bpm,max_hr_bpm,trimp,dropouts_s,shot_count,best_shot_kmh
+p07,Kevin De Bruyne,17,,0.0,0.0,0.0,155.0,176,1.07,0.0,5,105.8
+p09,Erling Haaland,9,,0.0,0.0,0.0,162.8,185,1.18,0.0,5,98.0
+p10,Jack Grealish,10,,0.0,0.0,0.0,147.6,157,0.89,0.0,3,90.4
+p16,Rodri,16,,0.0,0.0,0.0,144.0,152,0.87,0.0,2,89.6
