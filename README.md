@@ -13,24 +13,9 @@
 
 </div>
 
-
 > **About this repository.** Kickvision grew out of client work I delivered on Upwork. This is a **showcase of the system** — demonstration media, architecture and verified results. It contains **no client data, footage, credentials or deliverables**, and nothing here is derived from any client's material. The match footage is my own or licensed by me, and every physiological figure is synthetic.
 >
 > **The source code is not published here.** It is available for review on request — for a prospective client or employer, I am happy to walk through the implementation directly.
-
----
-
-## The idea
-
-A professional club sees two pictures of a match and never quite joins them.
-
-The **tactical picture** comes from multi-camera tracking rigs that cost more than most academies' annual budget. The **physical picture** comes from chest straps and GPS vests, and arrives as a spreadsheet hours later, divorced from the moment it describes.
-
-Kickvision joins them from a single tripod-mounted camera on the touchline.
-
-It tracks every player, projects them onto a calibrated pitch, measures how fast and how far they ran, reconstructs the ball's flight in 3D, reads the biomechanics of the strike — and then aligns all of it, to the millisecond, with the heart rate coming off a Polar strap on that same player's chest.
-
-That last join is the interesting one. Distance covered tells you *what a player did*. Heart rate against distance covered tells you *what it cost them* — and how that cost is trending in the 78th minute, while there is still time to make a substitution.
 
 ---
 
@@ -70,30 +55,6 @@ FIBA/NBA court projection with centre circle, key, free-throw circle and the 3-p
 
 ---
 
-## Physiological fusion: the part that makes it a system
-
-Vision tells you a player covered 47 m in 6.1 s. It cannot tell you whether that was comfortable. The strap can.
-
-Kickvision ingests **Polar H10**, **Verity Sense** and **Team Pro** exports and binds each device to a tracked player, then answers questions neither source can answer alone:
-
-- **Millisecond wallclock synchronisation.** A clock-in-frame sync event ties video time to strap time, so a heart-rate sample lands on the correct stride, not the correct minute.
-- **Cardiac lag by cross-correlation.** Heart rate trails effort. Kickvision sweeps the delay and reports the correlation coefficient *r* at its best value, which is itself a fitness signal — a lagging, slow-recovering heart is a tiring one.
-- **Edwards HR zones (Z1–Z5) and Banister TRIMP**, computed against each athlete's own resting and maximum heart rate rather than a population average.
-- **Internal load against external load.** Metabolic power from di Prampero's model, derived purely from motion, sits beside the measured cardiac response. Divergence between the two is the signal coaches actually want: *the same running is costing this player more than it did twenty minutes ago.*
-- **Honest dropouts.** Straps lose contact before sweat establishes conductivity. Gaps are preserved and reported as seconds lost. They are never interpolated into a comfortable flat line.
-
-**This is where the project is going.** The single-camera tactical layer is the foundation; the physiological layer is what turns it into something a club cannot get anywhere else at this price.
-
-| Next | What it unlocks |
-| --- | --- |
-| Live in-match fusion | Fatigue and load surfaced on the touchline during play, not in a report the next morning |
-| Per-player fatigue curves | Substitution decisions backed by the individual's own decay profile |
-| Biomechanical drift under load | Strike mechanics degrading as fatigue accumulates — a leading indicator of soft-tissue injury |
-| Longitudinal athlete baselines | Return-to-play readiness measured against that player's own history |
-| Multi-strap team-wide capture | Whole-squad internal load from one camera and a box of straps |
-
----
-
 ## Architecture
 
 The full pipeline — all nine stages, the physiological fusion path, the multi-sport boundary and the deployment shape — is documented with diagrams in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
@@ -117,6 +78,30 @@ flowchart TB
     B3D --> OUT
     POSE --> OUT
 ```
+
+---
+
+## Physiological fusion: the part that makes it a system
+
+Vision tells you a player covered 47 m in 6.1 s. It cannot tell you whether that was comfortable. The strap can.
+
+Kickvision ingests **Polar H10**, **Verity Sense** and **Team Pro** exports and binds each device to a tracked player, then answers questions neither source can answer alone:
+
+- **Millisecond wallclock synchronisation.** A clock-in-frame sync event ties video time to strap time, so a heart-rate sample lands on the correct stride, not the correct minute.
+- **Cardiac lag by cross-correlation.** Heart rate trails effort. Kickvision sweeps the delay and reports the correlation coefficient *r* at its best value, which is itself a fitness signal — a lagging, slow-recovering heart is a tiring one.
+- **Edwards HR zones (Z1–Z5) and Banister TRIMP**, computed against each athlete's own resting and maximum heart rate rather than a population average.
+- **Internal load against external load.** Metabolic power from di Prampero's model, derived purely from motion, sits beside the measured cardiac response. Divergence between the two is the signal coaches actually want: *the same running is costing this player more than it did twenty minutes ago.*
+- **Honest dropouts.** Straps lose contact before sweat establishes conductivity. Gaps are preserved and reported as seconds lost. They are never interpolated into a comfortable flat line.
+
+**This is where the project is going.** The single-camera tactical layer is the foundation; the physiological layer is what turns it into something a club cannot get anywhere else at this price.
+
+| Next | What it unlocks |
+| --- | --- |
+| Live in-match fusion | Fatigue and load surfaced on the touchline during play, not in a report the next morning |
+| Per-player fatigue curves | Substitution decisions backed by the individual's own decay profile |
+| Biomechanical drift under load | Strike mechanics degrading as fatigue accumulates — a leading indicator of soft-tissue injury |
+| Longitudinal athlete baselines | Return-to-play readiness measured against that player's own history |
+| Multi-strap team-wide capture | Whole-squad internal load from one camera and a box of straps |
 
 ---
 
